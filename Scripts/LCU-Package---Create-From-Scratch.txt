@@ -1,0 +1,58 @@
+Now we will show you how to create LCU Packages with Fathym.
+
+Head into your code folder for one of your GitHub organizations.
+
+If we take a look in GitHub, we can see we don't yet have a repository for our first LCU. We'll use the Fathym CLI to get this going. You can follow our other getting started video to get your account and the CLI setup.
+
+In V S Code, expand the terminal and run the fathym, git configure, -s command. This will prompt for git connection information.
+
+Scroll and select the organization to create the repo in.
+
+Type to filter the list
+
+Then you'll select a repository to configure with Fathym, default setup, or in this case, create a new one. Give a name to your first LCU launch control using snake case.
+
+Once completed, you'll have a new GitHub repository setup and configured.
+
+Refreshing the browser and looking at the new repository, we see that beyond just creating it, Fathym setup an integration branch and relevant branch protection rules. There is more on using the branching strategy in a separate video. GitHub actions have also been enabled to support automatic build configuration.
+
+Now, jump back over to V S Code where we can clone the repository using Fathym, git clone. Select the same organization and newly created repository to get the code.
+
+C D into the cloned codebase so we can set it up as an LCU Package
+
+We'll do this with the fathym dev, lcu scaffold command.
+
+This will seed the latest code for a working LCU package.
+
+That's everything we need to get coding, now use the fathym, open command in the cli to open V S code to our new project.
+
+A quick look around shows us the license and read me files created earlier, a standard package dot json has been added with the package name pre-configured and a deploy script ready to generate an NPM package so we can consume it.
+
+Opening the lcu dot json file shows some of the available configurations. Let's update the name now as well so that it shows when we install the LCU.
+
+In the assets folder you will find a default parameters file with a set of prompt configurations and an EaC file that contains the enterprise as code definition. You'll update these files to customize what your LCU Package can do.
+
+Currently LCU packages are deployed and consumed as NPM packages.
+
+Looking at NPM, sign in and you'll need to click your profile image and make sure an organization is created that matches the GitHub org we are using for the LCU Package, in my case mcgear.
+
+Now we are ready to deploy our LCU package. In V S code, we can run the fathym, git command to commit our changes. Enter your commit message, then some additional git house keeping will be executed too.
+
+To deploy our package, we'll use the NPM, run deploy command which uses the script from the package dot JSON file. After completing, the NPM package should be live on NPM and ready to use!
+
+The CLI can be used to install a package using the fathym, lcu command, but instead, we'll jump into Thinky.
+
+Thinky is your AI product and development assistant. There are a number of things she can do, and even more she is learning. In this case we'll install the package by name.
+
+Confirm with Thinky that you do want to install the LCU and then the package will be loaded and you will receive the first prompt. Recall that in the LCU package we created, there was a parameters file defining the prompts. Select the EaC project to install to, and for the package enter your full package name. Latest for the version and slash for the route. Your LCU will begin to install.
+
+Thinky will keep you up to date on the status of the LCU install. After Thinky has installed your LCU, you can checkout the new project by asking her to list them.
+
+This pulls up a list of your projects, where we can use the dashboard link and see one of the other ways to interact with our Enterprise.
+
+In the dashboard you'll see the new project, route and application with the same management capabilities as the CLI and Thinky. Watch our additional videos to learn how to use the dashboard.
+
+Use the preview link from the dashboard or back in Thinky and you'll see your new application. A feature of the Fathym runtime your seeing here is the default application, twenty forty-eight the game.  But around that we can see our deployed files from the LCU package if we enter the file names in directly.
+
+Thank you for following along. Don't forget to checkout our other videos on what to do with your LCU Package. Happy LCUing!
+

@@ -1,0 +1,30 @@
+Welcome back, we are going to keep looking at some of Thinky's features.
+
+We'll be looking at the Open Chats feature which gives you A GPT chat session that keeps your enterprise data yours.
+
+You can click through using the buttons or simply type what you are looking for.
+
+Once a new chat is started, you'll be able to name it and recall the history.
+
+We'll start a little react based dev chat with Thinky, to organize any questions we have around React.
+
+Type in your question or statement, or even choose to start by letting Thinky know who she should behave as.
+
+Thinky will respond with her best answer.
+
+To keep our chats organized we can rename it, you can also have thinky name it.
+
+After renaming, you can continue the conversation as needed.  Dive into any topics you want, even beyond development and product conversations.
+
+To change chats, simply type, change chat.
+
+You can continue chats by pressing continue and then selecting the chat from the list.
+
+After continuing the chat you can recall the history to see where you left off .
+
+Easily switch between chats to keep your conversations organized.
+
+Another easy way to get caught up on your chats is to simply ask Thinky to summarize it.
+
+Thank you for taking a look at Thinky's Open Chats feature, Happy Chatting!
+

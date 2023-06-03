@@ -1,0 +1,36 @@
+Hello again, let's dive into Thinky's LCU install process today.
+
+This will help you easily execute the LCU packages you build or find from the community.
+
+Click into the LCU install menu and enter the name of the package to install.
+
+I'm using the at fathym it lcu arcade package for this demo.
+
+When prompted, select yes to confirm you want to install the package.
+
+This will lead to the first prompt, where we can select to create a new project.
+
+Select a GitHub organization to fork the arcade home page into, allowing you to make edits if you'd like.
+
+Once the organization is selected, Thinky will run through all the phases of the LCU package, and keep you informed as to what she is doing.
+
+Now we can confirm the LCU is installed correctly by listing our EaC projects.
+
+Clicking on the preview link will open the arcade home page, where you can select a game to play.
+
+The game opens on a separate route than the home page.
+
+This might make you think the apps all live together in a single codebase.
+
+Instead, we are leveraging the Fathym runtime's composable application architecture to leverage multiple disparate codebases.
+
+Jumping into the Fathym dashboard, we can see that there are 6 different route configurations, each using a different codebase for its deployment package.
+
+The home page leverages a GitHub deployment package, you can see the new forked repo in your organization.
+
+Back in the dashboard you can switch over to one of the games, like Astray, and see that they are deployed from NPM packages.
+
+Check out the packages at npm j s dot com.
+
+Thanks for taking the time to see how Thinky can help you install LCU packages. Happy LCUing.
+
